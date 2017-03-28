@@ -1,0 +1,212 @@
+/* Determinar las reglas CSS necesarias para mostrar la página HTML que se proporciona con el 
+estilo que se muestra en la imagen 1.jpg contenida en esta misma carpeta) */
+
+/* A continuación se indica una propuesta de los pasos que se pueden seguir para obtener el 
+specto final deseado: (ver imagen 2.png contenida en esta misma carpeta) */
+
+/* •	Añadir los estilos básicos de la página (tipo de letra Verdana, color de letra #192666,
+imagen de fondo llamada fondo.gif, color de fondo #F2F5FE).*/
+body {
+	background: url(./imagenes/fondo.gif) no-repeat;
+	background-size: cover;
+}
+/* •	Definir la estructura básica de la página: anchura fija de 770 píxel, centrada en la 
+ventana del navegador, cabecera y pie, columna central de contenidos de anchura 530 píxel y 
+columna secundaria de contenidos de 200 píxel de anchura.*/
+.contenedor {
+	width: 770px;
+	margin: 0 auto;
+	font: 12px Verdana;
+	color: #192666;
+	border-top-left-radius: 1.5em;
+	border-top-right-radius: 1.5em;
+	background-color: #f2f5fe;
+}
+.principal {
+	width: 530px;
+	margin: 20px 0 0 10px;
+	border-top-left-radius: 1.5em;
+}
+.secundario {
+	width: 200px;
+	margin: 20px 10px 0 0;
+	border-top-right-radius: 1.5em;
+}
+.pie {
+	width: 770px;
+	margin: 0 0 0px 0px; 
+	border-bottom-left-radius: 1.5em;
+	border-bottom-right-radius: 1.5em;
+	background-color: #b3b3b3;
+}
+.principal, .secundario, .pie {
+	float: left;
+}
+.contenido {
+	overflow: hidden;
+}
+/* •	La cabecera tiene una altura de 100 píxel y una imagen de fondo llamada cabecera.jpg.*/
+.cabecera {
+	height: 100px;
+	background-image: url("./imagenes/cabecera.jpg");
+	border-top-left-radius: 1.5em;
+	border-top-right-radius: 1.5em;
+}
+.buscador, h1 a {
+	width: 46%;
+	color: white;
+	display: inline;
+}
+.cabecera h1 {
+	font-size: 36px;
+	padding: 0 20px;
+	float: left;
+	display: inline;
+	width: 46%;
+}
+.buscador {
+	float: right;
+	padding: 35px 0;
+}
+/* •	Los elementos del menú de navegación tienen un color de fondo #253575, un color de letra 
+B5C4E3. Cuando el ratón pasa por encima de cada elemento, su color de fondo cambia a #31479B. Los 
+elementos seleccionados se muestran con un colorde fondo blanco y un color de letra #FF9000:*/
+.menu {
+	background: #233575;
+}
+.clearfix {
+	list-style: none;
+	margin: 1em 1em 0 1em;
+	padding: 1em 1em 0 1em;
+}
+.clearfix li a {
+	color: #b5c4e3;
+	display: block;
+	padding: .4em;
+	text-decoration: none;
+	font-size: 12px;
+	text-align: center;
+}
+.clearfix li {
+	float: left;
+	width: 11%;
+	background-color: #405090;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+	margin: 0 .5em;
+}
+.menu, .clearfix {
+	overflow: hidden;
+	width: 100%;
+}
+.clearfix li:hover a {
+	color: #ff9000;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+	background-color: white;
+}
+/* •	Con la ayuda de las imágenes que se proporcionan, mostrar cada uno de los artículos 
+de contenido con el estilo que se muestra en la imagen 3.png contenida en esta misma carpeta*/
+.articulo {
+	background-image: url(./imagenes/fondo_articulo.jpg);
+	border-top-left-radius: 1.5em;
+}
+.articulo h2 {
+	margin-left: 0;
+	padding: .5em;
+	background-color: #e9e9e9;
+}
+.articulo p {
+	padding: 0 1em;
+}
+.articulo span.fecha {
+	font-size: 10px;
+	color: #b5c4e3;
+}
+.articulo .categoria a {
+	background: url(./imagenes/icono_categoria.gif) no-repeat left center;
+	padding: 1.2em;
+	margin:  1em;
+	font-size: 10px;
+	color: #b5c4e3;
+}
+.articulo .autor a {
+	background: url(./imagenes/icono_autor.gif) no-repeat left center;
+	padding: 1.2em;
+	margin:  1em;
+	font-size: 10px;
+	color: #b5c4e3;
+}
+.articulo .comentarios a {
+	background: url(./imagenes/icono_comentarios.gif) no-repeat left center;
+	padding: 1.2em;
+	margin:  1em;
+	font-size: 10px;
+	color: #b5c4e3;
+}
+/* •	Añadir los estilos adecuados para mostrar los elementos de la columna secundaria de 
+contenidos con el siguiente 
+aspecto. (ver imagen 4.png contenida en esta misma carpeta) */
+.secundario {
+	background: url(./imagenes/fondo_columna.gif) no-repeat;
+	background-size: cover;
+}
+.secundario h3 {
+	margin: 2.2em 0 1em 0;
+	height: 1.4em;
+	padding: .8em;
+	background-color: #b9b9b9;
+}
+.sobremi img {
+	margin: 0 .7em 0 .7em;
+	float: left;
+}
+.sobremi p {
+	padding-left: .7em;
+}
+.secundario ul {
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+}
+.secundario ul li {
+	padding: 0.5em 0em 0.5em 1em;
+	width: 20em;
+	border-bottom: 1px solid #e4e4e4; 
+}
+.secundario ul li a {
+  background: url(./imagenes/icono_elemento.gif) no-repeat left center;
+  padding: .5em 0 .5em 1em;
+  text-decoration: none;
+  display: block;
+}
+.secundario ul a:hover {
+  background: #e4e4e4 url(./imagenes/icono_elemento_seleccionado.gif) no-repeat left center;
+}
+.secundario ul li:hover {
+  background: #e4e4e4;
+  border: none;
+ }
+.pie p {
+	padding-left: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

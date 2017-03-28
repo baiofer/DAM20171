@@ -1,0 +1,9 @@
+div {
+	padding: 20px;
+	margin: 20px;
+	border: thin black solid;
+	background-color: #c0c0c0;
+}
+span.siguiente {
+	float: right;
+}

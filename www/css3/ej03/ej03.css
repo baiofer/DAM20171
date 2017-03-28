@@ -1,0 +1,45 @@
+/* --------------------------------
+Site:       ej03
+CSS author: bafi
+Updated:    13/03/2017
+Updated by: bafi
+-------------------------------- */
+
+/* Dados el siguiente código HTML y CSS base, aplicar las reglas CSS necesarias 
+para conseguir el aspecto que se muestra en la imagen 3.png contenida en esta misma carpeta */
+.exampleboxshadowa {
+	box-shadow: -5px -5px grey; 
+}
+.exampleboxshadowb {
+	box-shadow: -4px -4px 10px grey;
+}
+.exampleboxshadowc {
+	box-shadow: -5px -5px 0 5px grey;
+}
+.exampleboxshadowd {
+	box-shadow: -5px -5px 10px 5px grey;
+}
+.exampleboxshadowe { 
+	box-shadow: -1px -1px 1px grey, 1px 1px 1px grey, -1px 1px 1px grey, 1px -1px 1px grey;
+}
+.exampleboxshadowf {
+	box-shadow: -3px -3px 5px grey, 3px 3px 5px grey, -3px 3px 5px grey, 3px -3px 5px grey;
+}
+.exampleboxshadowg {
+	box-shadow: inset -5px -5px grey;
+}
+.exampleboxshadowh {
+	box-shadow: inset -5px -5px 5px grey;
+}
+.exampleboxshadowi {
+	box-shadow: inset -10px -10px grey;
+}
+.exampleboxshadowj {
+	box-shadow: inset -10px -10px 10px grey;
+}
+.exampleboxshadowk {
+	box-shadow: inset -1px -1px 1px grey, inset 1px 1px 1px grey, inset -1px 1px 1px grey, inset 1px -1px 1px grey;
+}
+.exampleboxshadowl {
+	box-shadow: inset -3px -3px 5px grey, inset 3px 3px 5px grey, inset -3px 3px 5px grey, inset 3px -3px 5px grey;
+}

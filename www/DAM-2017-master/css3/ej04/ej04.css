@@ -1,0 +1,16 @@
+/* --------------------------------
+Site:       ej04
+CSS author: bafi
+Updated:    13/03/2017
+Updated by: bafi
+-------------------------------- */
+/* Dados el siguiente código HTML y CSS base, aplicar las reglas CSS necesarias para conseguir el 
+aspecto que se muestra en la imagen 4.png contenida en esta misma carpeta */
+div {
+	background-image: url(./imgs/decoration.png), url(./imgs/ribbon.png), url(./imgs/old_paper.jpg);
+	background-repeat: no-repeat;
+	background-position: left top, right bottom, center;
+}
+p {
+	text-align: right;
+}

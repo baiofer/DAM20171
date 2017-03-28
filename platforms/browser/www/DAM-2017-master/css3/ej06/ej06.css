@@ -1,0 +1,76 @@
+/* --------------------------------
+Site:       ej06
+CSS author: bafi
+Updated:    13/03/2017
+Updated by: bafi
+-------------------------------- */
+
+/* Dados el siguiente código HTML y CSS base, aplicar las reglas CSS necesarias para conseguir el 
+aspecto que se muestra en la imagenes 6.1.png para pantalla completa
+6.2.png para pantallas hasta 1000px y 6.3.png para pantallas hasta 480px
+contenidas en esta misma carpeta */
+@media (max-width: 1000px) {
+	#container {
+    	float: left;
+    	width: 900px;
+    	background: #bbb;
+	}
+
+	#nav {
+    	float: left;
+    	width: 200px;
+    	background: lime;
+	}
+
+	#content {
+    	float: left;
+    	width: 550px;
+    	margin: 0 0 0 25px;
+    	background: yellow;
+	}
+
+	#extras {
+    	float: left;
+    	margin-left: 225px;
+    	width: 550px;
+    	background: gray;
+	}
+
+	.feature-image {
+    	float: right;
+    	margin: 0 0 10px 10px;
+	}
+}
+
+@media (max-width: 480px) {
+	#container {
+    	float: left;
+    	width: 400px;
+    	background: #bbb;
+	}
+
+	#nav {
+    	float: left;
+    	width: 400px;
+    	background: lime;
+	}
+
+	#content {
+    	float: left;
+    	width: 400px;
+    	margin: 0px;
+    	background: yellow;
+	}
+	img {
+		visibility: hidden;
+	}
+
+	#extras {
+    	float: left;
+    	margin: 20px 0 20px 0;
+    	width: 400px;
+    	background: gray;
+	}
+
+	
+}

@@ -1,0 +1,31 @@
+/* --------------------------------
+Site:       ej01
+CSS author: bafi
+Updated:    28/02/2017
+Updated by: bafi
+-------------------------------- */
+
+/* Utilizando las pseudo-clases first-child, first-of-type, nth-of-type, nth-last-of-type, 
+last-of-type y last-child conseguir el resultado que se ve en la imagen 1.png contenida en 
+esta misma carpeta */
+
+li:nth-of-type(2) {
+	font-size: x-small;
+	color: black;
+}
+li:nth-of-type(3) {
+	font-size: small;
+	color: black;
+}
+li:nth-of-type(4) {
+	font-size: large;
+	color: black;
+}
+li:last-child {
+	font-size: x-large;
+	color: blue;
+}
+li:first-child {
+	font-size: xx-small;
+	color: blue;
+}

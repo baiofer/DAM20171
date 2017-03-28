@@ -1,0 +1,43 @@
+/* --------------------------------
+Site:       final 2
+CSS author: bafi
+Updated:    13/03/2017
+Updated by: bafi
+-------------------------------- */
+
+/* ANIMACIONES Y TRANSICIONES */
+
+/* Dados el siguiente código HTML y CSS base, simular el comportamiento de un reloj de aguja*/
+
+#second {
+	animation-duration: 60s;
+	animation-name: rotar;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#minute {
+	animation-duration: 3600s;
+	animation-name: rotar;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#hour {
+	animation-duration: 86400s;
+	animation-name: rotar;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes rotar {
+	from {
+
+	}
+	to {
+		transform: rotate(360deg);
+		transform-origin: 0,0;
+		transition: all;
+	}
+}
+

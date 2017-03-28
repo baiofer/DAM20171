@@ -1,0 +1,38 @@
+/* --------------------------------
+Site:       ej05
+CSS author: bafi
+Updated:    13/03/2017
+Updated by: bafi
+-------------------------------- */
+/* Dados el siguiente código HTML y CSS base, aplicar las reglas CSS necesarias para conseguir el 
+aspecto que se muestra en la imagen 5.png contenida en esta misma carpeta */
+.a {
+	display: inline-block;
+}
+.b {
+	color: white;
+	text-shadow: .1em .1em .2em red, -.1em -.1em .2em red, .1em -.1em .2em red, -.1em .1em .2em red;
+	display: inline-block;
+}
+.c {
+	text-shadow: -.1em -.2em .1em #e00, -.0em -.2em .1em #0e0, -.0em .2em .1em #00e;
+	display: inline-block;
+}
+.d {
+	background-color: lightgrey;
+	color: white;
+	text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black;
+	display: inline-block;
+}
+.e {
+	background-color: grey;
+	color: grey;
+	text-shadow: 1px 1px 1px lightgrey, -1px -1px 1px lightgrey;
+	display: inline-block;
+}
+.f {
+	background-color: lightgrey;
+	color: lightgrey;
+	text-shadow: 1px 1px 0px white, -1px -1px 0px white;
+	display: inline-block;
+}

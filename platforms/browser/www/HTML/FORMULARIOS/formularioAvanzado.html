@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORMULARIOS AVANZADOS</title>
+</head>
+<body>
+	<h2>Información sobre el producto</h2>
+
+	<form action="formulario.php" method="POST">
+		<fieldset>
+			<legend>Datos básicos</legend>
+			Nombre<br />
+			<input type="text" name="nombre" size="60"><br/>
+			Descripción<br/>
+			<textarea name="descripcion" cols="60" rows="5"></textarea>
+			<br />
+			Foto <input type="file" name="foto">
+			<br />
+			<input type="checkbox" name="novedades" value="1"> Añadir contador de visitas
+			<br/>
+		</fieldset>
+		<fieldset>
+			<legend>Datos económicos</legend>
+			Precio <input type="" name="">
+			€    Impuestos 
+			<select id="impuestos" size="1">
+				<option value="uno">1</option>
+				<option value="dos">2</option>
+				<option value="tres">3</option>
+				<option value="cuatro">4</option>
+				<option value="cinco">5</option>
+			</select>
+			<br/>
+			<br/>
+			Promoción <br /><input type="radio" name="promocion" value="ninguno" checked="">Ninguno <br/><input type="radio" name="promocion" value="transporte">Transporte gratuito <br/><input type="radio" name="promocion" value="descuento">Descuento 5%
+		</fieldset>
+		
+
+
+
+
+	</form>
+
+
+
+
+
+
+	<br />
+	<a href="indiceFormularios.html">Volver</a><!-- ./IndiceGeneral.html-->
+
+</body>
+</html>

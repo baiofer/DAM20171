@@ -1,0 +1,78 @@
+/* Aplicar las reglas CSS necesarias para que el formulario muestre el aspecto de la imagen inicial.png contenida en esta
+carpeta.*/
+
+/* Cuando el usuario pasa el ratón por encima de cada grupo de elementos de formulario (es decir, por encima de cada <li>)
+se debe modificar su color de fondo (sugerencia: color amarillo claro #FF9). Además, cuando el usuario se posiciona
+en un cuadro de texto, se debe modificar su borde para resaltar el campo que está activo cada momento 
+(sugerencia: color amarillo #E6B700) */
+body {
+	font-family: Arial;
+}
+p.ayuda {
+	visibility: hidden;
+}
+h2 {
+	font-weight: normal;
+	padding: 0em 2em;
+}
+li {
+	background: transparent;
+	border-bottom: 1px solid #7c7c7c;
+	list-style: none;
+	margin: 0em 0em;
+	padding: 1em 1em;
+}
+li:first-child {
+	border-top: 1px solid #7c7c7c;
+}
+li:hover {
+	background: #FF9;
+}
+input:focus {
+	border-color: #e6b700;
+}
+/* Utilizando el menor número de reglas CSS, cambiar el aspecto del formulario para que se muestre como la imagen 
+formulario.png contenida en esta misma carpeta */
+li label.titulo {
+	font-weight: bold;
+	display: block;
+	width: 15%;
+	float: left;
+}
+span.requerido {
+	color: red;
+}
+li div {
+	width: 55%;
+	float: left;
+}
+span label {
+	display: block;
+	margin: .3em 0 0 0;
+	font-size: 0.7em;
+}
+div.pro, div.cod {
+	width: 30%;
+	display: inline;
+}
+span input, select {
+	margin-top: 1em;
+}
+li p.ayuda {
+	width:  15%;
+	float: left;
+}
+li {
+	overflow: hidden;
+}
+/* Cuando el usuario pasa el ratón por encima de un grupo de elementos de formulario (es decir, por encima de cada <li>) 
+se debe mostrar el mensaje de ayuda asociado. Añadir las reglas CSS necesarias para que el formulario tenga el aspecto 
+definitivo mostrado en la imagen aspectofinal.png contenida en esta misma carpeta. */
+li:hover p.ayuda {
+	visibility: visible;
+}
+input#alta {
+	background-color: #ddd;
+	font-size: 1.3em;
+	float: right;
+}

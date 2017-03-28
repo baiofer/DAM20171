@@ -1,0 +1,130 @@
+/* --------------------------------
+Site:       ej09
+CSS author: bafi
+Updated:    13/03/2017
+Updated by: bafi
+-------------------------------- */
+
+/* Dados el siguiente código HTML y CSS base, crear las animaciones necesarias 
+para simular un efecto de nieve. Utilizad al menos dos animaciones: */
+.snowflake.f1 {
+	animation-delay: 1s;
+	animation-duration: 10s;
+	animation-name: f1;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+@keyframes f1 {
+	0% {
+		top: 0%;
+		left:10%;
+		opacity: 1;
+	}
+	25% {
+		left: 20%
+		opacity: 0.75;
+	}
+	50% {
+		left: 10%;
+		opacity: 0.5;
+	}
+	75% {
+		left: 0%;
+		opacity: 0.25;
+	}
+	100% {
+		top: 100%;
+		left: 10%;
+		opacity: 0;
+	}
+}
+.snowflake.f2 {
+	animation-delay: 0s;
+	animation-duration: 12s;
+	animation-name: f2;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+@keyframes f2 {
+	0% {
+		top: 0%;
+		left:30%;
+	}
+	25% {
+		left: 40%
+	}
+	50% {
+		left: 30%;
+	}
+	75% {
+		left: 20%;
+	}
+	100% {
+		top: 100%;
+		left: 30%;
+	}
+}
+.snowflake.f3 {
+	animation-delay: 1.5s;
+	animation-duration: 11s;
+	animation-name: f3;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+@keyframes f3 {
+	0% {
+		top: 0%;
+		left:60%;
+	}
+	25% {
+		left: 70%
+	}
+	50% {
+		left: 60%;
+	}
+	75% {
+		left: 50%;
+	}
+	100% {
+		top: 100%;
+		left: 60%;
+	}
+}
+.snowflake.f4 {
+	animation-delay: 0.5s;
+	animation-duration: 9s;
+	animation-name: f4;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+@keyframes f4 {
+	0% {
+		top: 0%;
+		left:80%;
+	}
+	25% {
+		left: 90%
+	}
+	50% {
+		left: 80%;
+	}
+	75% {
+		left: 70%;
+	}
+	100% {
+		top: 100%;
+		left: 80%;
+	}
+}
+
+
+/* La primera para simular la caida de los copos de nieve. */
+
+/* La segunda para hacer desaparecer los copos según van llegando al suelo, 
+utilizando la propiedad opacity. */
+
+/* La animación debe ejecutarse de manera infinita. */
